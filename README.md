@@ -1,8 +1,4 @@
-Got it 👍 — here’s your **README.md** rewritten properly in pure Markdown format (ready to paste directly into your `README.md` file):
-
----
-
-# 🚀 PHP API Testing
+# 🐘 SIA PHP API Testing
 
 This repository contains a simple PHP API for **local development and REST API experimentation**.
 It allows you to test basic HTTP methods — **GET, POST, PUT, DELETE** — using **Postman** or **cURL**.
@@ -84,6 +80,8 @@ Make sure to include:
 
 > 💡 **Note:** This only works with the **Postman desktop app**, not the browser version.
 > Alternatively, you can also use **curl** or **curl.exe** commands to test the API.
+
+# 🚀 Thank you!
 
 ---
 
