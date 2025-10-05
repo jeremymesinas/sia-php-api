@@ -81,8 +81,6 @@ Make sure to include:
 > 💡 **Note:** This only works with the **Postman desktop app**, not the browser version.
 > Alternatively, you can also use **curl** or **curl.exe** commands to test the API.
 
-# 🚀 Thank you!
-
 ---
 
 ## 🎉 Thank You!
