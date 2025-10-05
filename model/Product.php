@@ -61,7 +61,7 @@ public function setDescription($description) {
     if (($description!==null) && (strlen($description)>16777215)) {
         throw new ProductException('Product description error');
     }
-    $this->_description=$description
+    $this->_description=$description;
 }
 
 //private prod date setter

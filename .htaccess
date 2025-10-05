@@ -1,1 +1,9 @@
-php_flag display_errors on
+RewriteEngine On # Turn on the rewriting engine
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Products
+RewriteRule ^products/([0-9]+)$ controller/product.php?productid=$1 [L] # Handle product id requests
+
+RewriteRule ^products$ controller/product.php [L] # Handle product requests
+RewriteRule ^products/$ controller/product.php [L] # Handle product requests
